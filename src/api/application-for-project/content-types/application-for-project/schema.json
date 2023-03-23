@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "application_for_projects",
+  "info": {
+    "singularName": "application-for-project",
+    "pluralName": "application-for-projects",
+    "displayName": "application-for-project"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "shares": {
+      "type": "string",
+      "required": true
+    },
+    "projectId": {
+      "type": "string",
+      "required": true
+    },
+    "projectTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

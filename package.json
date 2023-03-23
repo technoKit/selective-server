@@ -1,0 +1,33 @@
+{
+  "name": "my-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.8.2",
+    "@strapi/plugin-users-permissions": "4.8.2",
+    "@strapi/provider-email-sendgrid": "^4.8.2",
+    "@strapi/provider-upload-cloudinary": "^4.8.2",
+    "@strapi/strapi": "4.8.2",
+    "better-sqlite3": "8.0.1",
+    "strapi-plugin-google-map-picker": "^1.0.8",
+    "strapi-provider-email-smtp": "^1.0.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "4aaf807f-71af-4202-800b-a33511cecc8a"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
