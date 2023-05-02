@@ -22,6 +22,10 @@ const Wrapper = styled(Box)`
 `;
 
 const configuration = {
+  language: {
+    ui: "en",
+    content: "ar",
+  },
   toolbar: [
     "heading",
     "|",
