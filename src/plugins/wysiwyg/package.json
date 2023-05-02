@@ -9,7 +9,6 @@
     "displayName": "Wysiwyg"
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-alignment": "^37.1.0",
     "@ckeditor/ckeditor5-build-classic": "^37.1.0",
     "@ckeditor/ckeditor5-react": "^6.0.0",
     "@strapi/design-system": "^1.6.3",
