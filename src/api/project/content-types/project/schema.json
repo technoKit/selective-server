@@ -4,7 +4,8 @@
   "info": {
     "singularName": "project",
     "pluralName": "projects",
-    "displayName": "project"
+    "displayName": "project",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,46 +13,55 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "location": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "map_location": {
       "type": "customField",
-      "customField": "plugin::google-map-picker.place"
+      "customField": "plugin::google-map-picker.place",
+      "required": true
     },
     "shares": {
-      "type": "integer"
+      "type": "float",
+      "required": true
     },
     "sold_shares": {
-      "type": "integer"
+      "type": "float",
+      "required": true
     },
     "share_price": {
-      "type": "biginteger"
+      "type": "float",
+      "required": true
     },
     "main_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }
