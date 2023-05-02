@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "application_for_contacts",
+  "info": {
+    "singularName": "application-for-contact",
+    "pluralName": "application-for-contacts",
+    "displayName": "Application-for-contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}
