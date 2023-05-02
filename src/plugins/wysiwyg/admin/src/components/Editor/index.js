@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 import { CKEditor } from "@ckeditor/ckeditor5-react";
 // import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
-import ClassicEditor from "../../../../ckeditor5-37.1.0-customBuild-ghannam/build/ckeditor"; //this is a custom build for ckeditor5 with the alignment plugin included created by the online tool  https://ckeditor.com/ckeditor-5/online-builder/
+import ClassicEditor from "../../../../ckeditor5-37.1.0-customBuild-ghannam/build_/ckeditor"; //this is a custom build for ckeditor5 with the alignment plugin included created by the online tool  https://ckeditor.com/ckeditor-5/online-builder/
 
 // import * as ClassicEditor from "ckeditor5-build-classic-all-plugin";
 import { Box } from "@strapi/design-system/Box";
