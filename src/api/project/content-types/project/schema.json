@@ -62,6 +62,22 @@
     "description": {
       "type": "richtext",
       "required": true
+    },
+    "gross_yield": {
+      "type": "string",
+      "required": true
+    },
+    "expected_return": {
+      "type": "string",
+      "required": true
+    },
+    "dividend_yield": {
+      "type": "string",
+      "required": true
+    },
+    "rental_income": {
+      "type": "string",
+      "required": true
     }
   }
 }
